@@ -6,9 +6,9 @@ Update server for the Concordia Sunmi Terminal.
 
 | Field | Value |
 |-------|-------|
-| Version | **1.2.0** (tag `v1.2.1`) |
+| Version | **1.3.0** (tag `v1.3.0`) |
 | APK | [app-production-release.apk](https://github.com/narmercloud-droid/concordia-updates/releases/latest/download/app-production-release.apk) |
-| Manifest | [latest.json](https://github.com/narmercloud-droid/concordia-updates/releases/latest/download/latest.json) |
+| Manifest | [latest.json](https://raw.githubusercontent.com/narmercloud-droid/concordia-updates/main/latest.json) |
 
 ## Install on Sunmi
 
@@ -19,11 +19,14 @@ Update server for the Concordia Sunmi Terminal.
 
 Package: `de.concordia.terminal`
 
-## What's new in 1.2.0
+## What's new in 1.3.0
 
-- Lieferando-style order tabs (Neu / In Arbeit / Fertig / Erledigt / Geplant)
-- Accept and reject orders with prep-time presets
-- Full item variants, extras, and notes
-- Sunmi receipt print on accept
-- Pause incoming orders from the header
+- Merged **In Arbeit** tab: new orders stay on top until accepted/rejected
+- Louder repeating alert for unhandled orders
+- Delivery countdown timer on order cards
+- Side menu: pause orders, day report, language (DE / AR)
+- Hardware back navigates inside app (does not exit)
+- Move orders between In Arbeit → Unterwegs → Erledigt
+- Improved Sunmi printer binding and error messages
+- Screen stays on, fullscreen kiosk-style UI
 - Backend: `https://concordia-backend-web.onrender.com`
