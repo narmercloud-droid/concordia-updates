@@ -6,7 +6,7 @@ Update server for the Concordia Sunmi Terminal.
 
 | Field | Value |
 |-------|-------|
-| Version | **1.3.0** (tag `v1.3.0`) |
+| Version | **1.3.1** (tag `v1.3.1`) |
 | APK | [app-production-release.apk](https://github.com/narmercloud-droid/concordia-updates/releases/latest/download/app-production-release.apk) |
 | Manifest | [latest.json](https://raw.githubusercontent.com/narmercloud-droid/concordia-updates/main/latest.json) |
 
@@ -18,6 +18,14 @@ Update server for the Concordia Sunmi Terminal.
 4. Open the APK and install.
 
 Package: `de.concordia.terminal`
+
+## What's new in 1.3.1
+
+- Fixed order status updates (Unterwegs / Geliefert buttons)
+- Kingtop Z91 built-in printer support (Kempen terminal)
+- Driver QR scan auto-moves order to Unterwegs
+- Faster app when live socket is connected
+- Clearer German error messages for failed updates
 
 ## What's new in 1.3.0
 
