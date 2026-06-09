@@ -6,7 +6,7 @@ Update server for the Concordia Sunmi Terminal.
 
 | Field | Value |
 |-------|-------|
-| Version | **1.3.1** (tag `v1.3.1`) |
+| Version | **1.3.2** (tag `v1.3.2`) |
 | APK | [app-production-release.apk](https://github.com/narmercloud-droid/concordia-updates/releases/latest/download/app-production-release.apk) |
 | Manifest | [latest.json](https://raw.githubusercontent.com/narmercloud-droid/concordia-updates/main/latest.json) |
 
@@ -18,6 +18,13 @@ Update server for the Concordia Sunmi Terminal.
 4. Open the APK and install.
 
 Package: `de.concordia.terminal`
+
+## What's new in 1.3.2
+
+- Full-screen incoming order alert with louder repeating tone until accept/decline
+- Pause orders: clear confirmation in menu, status indicator, and header badge
+- No countdown timer on finished/delivered orders
+- Removed redundant "Nur heutige Bestellungen · Live aktiv" subtitle
 
 ## What's new in 1.3.1
 
