@@ -6,7 +6,7 @@ Update server for the Concordia Sunmi Terminal.
 
 | Field | Value |
 |-------|-------|
-| Version | **1.3.2** (tag `v1.3.2`) |
+| Version | **1.3.3** (tag `v1.3.3`) |
 | APK | [app-production-release.apk](https://github.com/narmercloud-droid/concordia-updates/releases/latest/download/app-production-release.apk) |
 | Manifest | [latest.json](https://raw.githubusercontent.com/narmercloud-droid/concordia-updates/main/latest.json) |
 
@@ -18,6 +18,13 @@ Update server for the Concordia Sunmi Terminal.
 4. Open the APK and install.
 
 Package: `de.concordia.terminal`
+
+## What's new in 1.3.3
+
+- Fix pause orders (backend + terminal)
+- Improved Kingtop Z91 printer SDK integration (correct Z91 API)
+- App returns to foreground 3 seconds after Home button
+- Smaller, optimized release APK (minify + shrink)
 
 ## What's new in 1.3.2
 
