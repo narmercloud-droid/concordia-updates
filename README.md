@@ -51,4 +51,4 @@ Package: `de.concordia.terminal`
 - Move orders between In Arbeit → Unterwegs → Erledigt
 - Improved Sunmi printer binding and error messages
 - Screen stays on, fullscreen kiosk-style UI
-- Backend: `https://concordia-backend-web.onrender.com`
+- Production API: `https://api.concordiapizza.de` (Render service: `concordia-backend-eu`)
