@@ -6,7 +6,7 @@ Update server for the Concordia Sunmi Terminal.
 
 | Field | Value |
 |-------|-------|
-| Version | **1.3.3** (tag `v1.3.3`) |
+| Version | **1.6.27** (tag `v1.6.27`) |
 | APK | [app-production-release.apk](https://github.com/narmercloud-droid/concordia-updates/releases/latest/download/app-production-release.apk) |
 | Manifest | [latest.json](https://raw.githubusercontent.com/narmercloud-droid/concordia-updates/main/latest.json) |
 
@@ -18,6 +18,12 @@ Update server for the Concordia Sunmi Terminal.
 4. Open the APK and install.
 
 Package: `de.concordia.terminal`
+
+## What's new in 1.6.27
+
+- Confirm orders before printing with rollback on API failure
+- Handle `order:rejected` realtime events on the terminal
+- Improved login error messages from wrapped API responses
 
 ## What's new in 1.3.3
 
