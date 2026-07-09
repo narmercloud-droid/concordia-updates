@@ -6,7 +6,7 @@ Update server for the Concordia Sunmi Terminal.
 
 | Field | Value |
 |-------|-------|
-| Version | **1.6.27** (tag `v1.6.27`) |
+| Version | **1.6.28** (tag `v1.6.28`) |
 | APK | [app-production-release.apk](https://github.com/narmercloud-droid/concordia-updates/releases/latest/download/app-production-release.apk) |
 | Manifest | [latest.json](https://raw.githubusercontent.com/narmercloud-droid/concordia-updates/main/latest.json) |
 
@@ -18,6 +18,12 @@ Update server for the Concordia Sunmi Terminal.
 4. Open the APK and install.
 
 Package: `de.concordia.terminal`
+
+## What's new in 1.6.28
+
+- Sunmi V2s only — removed legacy Kingtop Z91 / ZCS printer support
+- Confirm orders before printing with rollback on API failure
+- Handle `order:rejected` realtime events
 
 ## What's new in 1.6.27
 
