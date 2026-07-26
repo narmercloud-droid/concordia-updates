@@ -2,6 +2,30 @@
 
 Update server for the Concordia Sunmi Terminal.
 
+## How auto-update works
+
+Terminals on **v1.6.34+** check this repo over Wi‑Fi:
+
+1. App reads [`latest.json`](https://raw.githubusercontent.com/narmercloud-droid/concordia-updates/main/latest.json)
+2. If `versionCode` is newer than the installed app, it downloads the APK
+3. Android shows the install screen once (tap Install) — no PC/USB needed
+
+**First time only:** install a build that includes auto-update (v1.6.34+). After that, publishing here is enough.
+
+## Publish a new version
+
+From `concordia-terminal-ui`:
+
+```powershell
+npm run apk:publish
+```
+
+Then:
+
+1. Create a GitHub Release in this repo (`vX.Y.Z`)
+2. Upload the built APK as **`app-production-release.apk`**
+3. Commit & push updated `latest.json` + `checksum.sha256`
+
 ## Latest release
 
 | Field | Value |
@@ -10,14 +34,14 @@ Update server for the Concordia Sunmi Terminal.
 | APK | [app-production-release.apk](https://github.com/narmercloud-droid/concordia-updates/releases/latest/download/app-production-release.apk) |
 | Manifest | [latest.json](https://raw.githubusercontent.com/narmercloud-droid/concordia-updates/main/latest.json) |
 
-## Install on Sunmi
+## Manual install (old terminals / first update)
 
 1. Download `app-production-release.apk` from [Releases](https://github.com/narmercloud-droid/concordia-updates/releases/latest).
-2. Copy to the device (USB, email, or cloud).
-3. Enable **Install unknown apps** for your file manager.
-4. Open the APK and install.
+2. On the Sunmi, open the APK (browser/Files) and install.
+3. Enable **Install unknown apps** if asked.
 
 Package: `de.concordia.terminal`
+
 
 ## What's new in 1.6.28
 
