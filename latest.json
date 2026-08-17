@@ -1,6 +1,6 @@
 ﻿{
-    "apkUrl":  "https://github.com/narmercloud-droid/concordia-updates/releases/latest/download/app-production-release.apk",
-    "versionCode":  70,
-    "versionName":  "1.6.35",
-    "checksum":  "ef2d199e4048a6cb0d11614416a6926e2480c530b01643051ed327f3bd27eda8"
+  "apkUrl": "https://cdn.jsdelivr.net/gh/narmercloud-droid/concordia-updates@main/apk/app-production-release.apk",
+  "versionCode": 70,
+  "versionName": "1.6.35",
+  "checksum": "ef2d199e4048a6cb0d11614416a6926e2480c530b01643051ed327f3bd27eda8"
 }

@@ -31,7 +31,7 @@ Then:
 | Field | Value |
 |-------|-------|
 | Version | **1.6.35** (tag `v1.6.35`) |
-| APK | [app-production-release.apk](https://github.com/narmercloud-droid/concordia-updates/releases/latest/download/app-production-release.apk) |
+| APK | [app-production-release.apk](https://cdn.jsdelivr.net/gh/narmercloud-droid/concordia-updates@main/apk/app-production-release.apk) |
 | Manifest | [latest.json](https://raw.githubusercontent.com/narmercloud-droid/concordia-updates/main/latest.json) |
 
 ## Manual install (old terminals / first update)
