@@ -30,7 +30,7 @@ Then:
 
 | Field | Value |
 |-------|-------|
-| Version | **1.6.35** (tag `v1.6.35`) |
+| Version | **1.6.36** (tag `v1.6.36`) |
 | APK | [app-production-release.apk](https://cdn.jsdelivr.net/gh/narmercloud-droid/concordia-updates@main/apk/app-production-release.apk) |
 | Manifest | [latest.json](https://raw.githubusercontent.com/narmercloud-droid/concordia-updates/main/latest.json) |
 
@@ -42,6 +42,12 @@ Then:
 
 Package: `de.concordia.terminal`
 
+
+## What's new in 1.6.36
+
+- Bukarest-style kitchen UX: shared timers, scheduled-time adjuster, clearer incoming-order flow
+- Restore ZCS / Kingtop printer support alongside Sunmi
+- Ticket print settings and auto-print hardening for branch terminals
 
 ## What's new in 1.6.35
 
