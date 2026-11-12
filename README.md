@@ -8,7 +8,7 @@ Terminals on **v1.6.34+** check this repo over Wi-Fi:
 
 1. App reads [`latest.json`](https://raw.githubusercontent.com/narmercloud-droid/concordia-updates/main/latest.json)
 2. If `versionCode` is newer than the installed app, it downloads the APK
-3. Android shows the install screen once (tap Install) — no PC/USB needed
+3. Android shows the install screen once (tap Install) â€” no PC/USB needed
 
 **First time only:** install a **release-signed** build (v1.6.43+). Debug-signed installs cannot update over a release-signed APK (or the other way around) without uninstalling first.
 
@@ -26,7 +26,7 @@ That builds the release APK, writes `latest.json` / `checksum.sha256` / `apk/`, 
 
 | Field | Value |
 |-------|-------|
-| Version | **1.6.43** (tag `v1.6.43`) |
+| Version | **1.6.44** (tag `v1.6.44`) |
 | APK | [app-production-release.apk](https://cdn.jsdelivr.net/gh/narmercloud-droid/concordia-updates@main/apk/app-production-release.apk) |
 | Manifest | [latest.json](https://raw.githubusercontent.com/narmercloud-droid/concordia-updates/main/latest.json) |
 
@@ -57,7 +57,7 @@ Package: `de.concordia.terminal`
 
 ## What's new in 1.6.28
 
-- Sunmi V2s only — removed legacy Kingtop Z91 / ZCS printer support
+- Sunmi V2s only â€” removed legacy Kingtop Z91 / ZCS printer support
 - Confirm orders before printing with rollback on API failure
 - Handle `order:rejected` realtime events
 
@@ -79,7 +79,7 @@ Package: `de.concordia.terminal`
 - Full-screen incoming order alert with louder repeating tone until accept/decline
 - Pause orders: clear confirmation in menu, status indicator, and header badge
 - No countdown timer on finished/delivered orders
-- Removed redundant "Nur heutige Bestellungen · Live aktiv" subtitle
+- Removed redundant "Nur heutige Bestellungen Â· Live aktiv" subtitle
 
 ## What's new in 1.3.1
 
@@ -96,7 +96,7 @@ Package: `de.concordia.terminal`
 - Delivery countdown timer on order cards
 - Side menu: pause orders, day report, language (DE / AR)
 - Hardware back navigates inside app (does not exit)
-- Move orders between In Arbeit → Unterwegs → Erledigt
+- Move orders between In Arbeit â†’ Unterwegs â†’ Erledigt
 - Improved Sunmi printer binding and error messages
 - Screen stays on, fullscreen kiosk-style UI
 - Production API: `https://api.concordiapizza.de` (Render service: `concordia-backend-eu`)
