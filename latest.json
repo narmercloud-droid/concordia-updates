@@ -1,7 +1,7 @@
 {
-    "versionCode":  79,
-    "versionName":  "1.6.44",
+    "versionCode":  80,
+    "versionName":  "1.6.45",
     "apkUrl":  "https://cdn.jsdelivr.net/gh/narmercloud-droid/concordia-updates@main/apk/app-production-release.apk",
-    "checksum":  "390ecddb49b0c2ad6d9840b78a5982fdcd87014a3d63efb8c9e4318696eb3440",
-    "publishedAt":  "2026-11-12T21:22:19Z"
+    "checksum":  "2a6d663a213bfb815f95d1ae288b684c547d284fef76f5b0989258f60491ffc0",
+    "publishedAt":  "2026-11-26T16:43:44Z"
 }
