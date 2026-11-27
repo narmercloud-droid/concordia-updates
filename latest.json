@@ -1,7 +1,7 @@
 {
-    "versionCode":  85,
-    "versionName":  "1.6.50",
-    "apkUrl":  "https://raw.githubusercontent.com/narmercloud-droid/concordia-updates/main/apk/app-production-release.apk?v=85",
-    "checksum":  "437d94bde3b188a4a37889a7007fb52ca9baf375d714c395e72c77105d2943f1",
-    "publishedAt":  "2026-11-27T15:59:11Z"
+    "versionCode":  86,
+    "versionName":  "1.6.51",
+    "apkUrl":  "https://raw.githubusercontent.com/narmercloud-droid/concordia-updates/main/apk/app-production-release.apk?v=86",
+    "checksum":  "2ab7ec361e4f23ad0a3a938c0a8c29cdb33cf915d2508a95029167f751eb86c5",
+    "publishedAt":  "2026-11-27T16:05:39Z"
 }
